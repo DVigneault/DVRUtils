@@ -5,7 +5,7 @@
 #' @return Last character of s
 #' @author Davis Marc Vigneault
 #' @examples
-#' last.character("Some String") # returns 'g'
-last.character <- function(s) {
+#' last_character("Some String") # returns 'g'
+last_character <- function(s) {
   return(substr(s, nchar(s), nchar(s)))
 }

@@ -5,7 +5,7 @@
 #' @return First character of s
 #' @author Davis Marc Vigneault
 #' @examples
-#' first.character("Some String") # returns 'S'
-first.character <- function(s) {
+#' first_character("Some String") # returns 'S'
+first_character <- function(s) {
   return(substr(s, 1, 1))
 }
