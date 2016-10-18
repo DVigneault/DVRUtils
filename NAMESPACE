@@ -2,3 +2,4 @@
 
 export(first.character)
 export(last.character)
+export(roll)
